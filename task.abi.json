@@ -1,0 +1,120 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "DobavitTask",
+			"inputs": [
+				{"name":"str","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "PolychitCountOpen",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "PolychitSpisok",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "Opisanie",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "DeleteTask",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CompleteTask",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "timestamp",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"timestamp","type":"uint32"}
+			]
+		},
+		{
+			"name": "taskArr",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"taskArr","type":"string[]"}
+			]
+		},
+		{
+			"name": "TaskCount",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"TaskCount","type":"uint8"}
+			]
+		},
+		{
+			"name": "OpenTask",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"OpenTask","type":"uint8"}
+			]
+		},
+		{
+			"name": "checkKey",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"checkKey","type":"string"}
+			]
+		},
+		{
+			"name": "key",
+			"inputs": [
+			],
+			"outputs": [
+				{"components":[{"name":"deloname","type":"string"},{"name":"flag","type":"bool"},{"name":"timestampDelo","type":"uint256"}],"name":"key","type":"map(uint8,tuple)"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"timestamp","type":"uint32"},
+		{"name":"taskArr","type":"string[]"},
+		{"name":"TaskCount","type":"uint8"},
+		{"name":"OpenTask","type":"uint8"},
+		{"name":"checkKey","type":"string"},
+		{"components":[{"name":"deloname","type":"string"},{"name":"flag","type":"bool"},{"name":"timestampDelo","type":"uint256"}],"name":"key","type":"map(uint8,tuple)"}
+	]
+}
